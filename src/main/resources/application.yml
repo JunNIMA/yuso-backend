@@ -9,7 +9,7 @@ spring:
     active: dev
   # 支持 swagger3
   mvc:
-    pathmatch:
+    path-match:
       matching-strategy: ant_path_matcher
   # session 配置
   session:
@@ -100,4 +100,4 @@ knife4j:
       default:
         api-rule: package
         api-rule-resources:
-          - com.yupi.springbootinit.controller
+          - com.yupi.yuso.controller
