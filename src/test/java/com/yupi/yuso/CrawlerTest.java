@@ -26,7 +26,7 @@ public class CrawlerTest {
 
     @Resource
     private PostService postService;
-
+//
     @Test
     void testFetchPicture() throws IOException {
         int current = 1;
