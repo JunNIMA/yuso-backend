@@ -13,6 +13,9 @@ import org.springframework.context.annotation.Configuration;
  * @author https://github.com/liyupi
  */
 @Configuration
+//自动扫描 com.yupi.yuso.mapper 包下的所有接口，
+// 并将其注册为 MyBatis 的 Mapper Bean，
+// 这样就不需要手动为每个 Mapper 接口添加 @Mapper 注解
 @MapperScan("com.yupi.yuso.mapper")
 public class MyBatisPlusConfig {
 
